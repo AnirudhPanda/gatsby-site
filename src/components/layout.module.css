@@ -1,0 +1,25 @@
+/* In CSS, the convention is to name classes using kebab case (like .nav-links). But in JavaScript, the convention is to name variables using camel case (like navLinks). */
+
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  color: rebeccapurple;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link-item {
+  padding-right: 2em;
+}
+
+.nav-link-text {
+  color: black;
+}
